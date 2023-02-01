@@ -1,4 +1,8 @@
-import _ from 'lodash';
+import getType from "./getType"
 
-console.log('hello!!!');
-console.log(_.camelCase('hello world!!!'));
+
+console.log(getType(123))
+console.log(getType(false))
+console.log(getType("test"))
+console.log(getType([]))
+console.log(getType({}))
